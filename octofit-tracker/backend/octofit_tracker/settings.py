@@ -32,6 +32,7 @@ if codespace_name:
     allowed_hosts.append(f"{codespace_name}-8000.app.github.dev")
 ALLOWED_HOSTS = allowed_hosts
 
+AUTH_USER_MODEL = 'octofit_tracker.User'
 
 # Application definition
 
